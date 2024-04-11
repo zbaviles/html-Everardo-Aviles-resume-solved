@@ -1,0 +1,22 @@
+{
+  "name": "html-jon-doe-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser-install": "npx playwright install chromium",
+    "deps-install": "npx playwright install-deps",
+    "test": "npx playwright test",
+    "test-part1": "npx playwright test tests/tests-p1.spec.js",
+    "test-part2": "npx playwright test tests/tests-p2.spec.js",
+    "test-ui": "npx playwright test --ui",
+    "show-report": "npx playwright show-report",
+    "live-server": "npx live-server --port=5551"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}

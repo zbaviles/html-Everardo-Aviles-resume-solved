@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+h1 {
+  padding: 10px 0;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  max-width: max-content;
+}
+
+#hobbies {
+  background-color: #da5252;
+}
+
+#skills {
+  background-color: green;
+}
+
+#contacts {
+  background-color: blue;
+}
+
+img {
+  display: block;
+  margin: 10px auto 0 auto;
+  border-radius: 50%;
+}
+
+p {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  margin: 20px 0;
+  line-height: 24px;
+  font-style: oblique;
+  display: flex;
+  gap: 10px;
+}
+
+p:before,
+p:after {
+  content: '\0022';
+  font-size: 32px;
+  font-weight: bold;
+}
+p:after {
+  display: flex;
+  align-items: flex-end;
+}
+
+ul,
+ol {
+  margin: 10px 0 30px 30px;
+  line-height: 26px;
+}
+
+table.contacts-table {
+  margin-top: 20px;
+}
+
+table.contacts-table th,
+table.contacts-table td {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+}
+
+table.contacts-table th {
+  text-align: left;
+}
+
+table.contacts-table td {
+  padding-left: 30px;
+}
