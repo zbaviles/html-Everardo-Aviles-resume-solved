@@ -40,9 +40,6 @@ This assignment should prove that a student is able to:
 - Add global attributes to HTML elements.
 - Utilize the `link` tag to connect a css file.
 - Utilize the `script` tag to connect a js file.
-- Utilize internal VSCode terminal to install packages.
-- Utilize internal VSCode terminal to run tests and the testing GUI.
-- Read the test results in the terminal and in the graphical user interface.
 
 ## Standard requirements
 
