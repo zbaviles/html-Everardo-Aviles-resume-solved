@@ -51,7 +51,7 @@ This assignment should prove that a student is able to:
   - [ ] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
   - [ ] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] All the tests MUST pass. Fix the errors in case they don't BEFORE you submit (acceptance criteria)
+- [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
   - [ ] Use `npm run test` to run all tests in the terminal
   - [ ] Use `npm run test-part1` to run the tests for the first part of specific requirements in the terminal
   - [ ] Use `npm run test-part2` to run the tests for the second part of specific requirements in the terminal
@@ -77,15 +77,15 @@ All the tasks in the requirements are related to the index.html file! Consider "
   - [ ] The image path should be `https://randomuser.me/api/portraits/men/20.jpg`. Feel free to change the number in the file name to get a new image.
   - [ ] The image alternative text should match the page title.
 - [ ] Add a section heading with the content of "About Me".
-- [ ] Add a paragraph of text (50 words at least) as the Joh Doe's bio. You can use random text for the paragraph content.
+- [ ] Add a paragraph of text (50 words at least) as the John Doe's bio. You can use random text for the paragraph content.
 - [ ] Add the section heading "My Skills" with h2 tag
 - [ ] Add the ORDERED list and add 6 random item into it. (Feel free to use the devslopes website to get the real skill names or use some random skill names)
 - [ ] Add the section heading "My Hobbies" with h2 tag
 - [ ] Add the UNORDERED list of 4 hobbies
 - [ ] Add the section heading "Contact Me" with h2 tag
 - [ ] Add the table of two columns and 4 rows. The first column for every row is the table header with the service name. The second column is for the value.
-- [ ] Add Discord as a service and discord's real username as a value to the table.
-- [ ] Add LinkedIn as a service and linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
+- [ ] Add Discord as a service and your discord's real username as a value to the table.
+- [ ] Add LinkedIn as a service and your linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
 - [ ] Add Email as a service and your real email as the value. Make it to be a link that starts the new email message app.
 - [ ] Add Github as a service and use your real github username as a value. Make the value to be a link that leads to your github profile in a new browser tab.
 - [ ] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p1-solved-mockup.png).
