@@ -145,7 +145,9 @@ test('The contacts table HTML element should have should be of `contacts-table` 
   expect(imageLocatorIdValue).toBe('contacts-table');
 });
 
-test('The body should be of a `fancy-body` class', async ({ page }) => {
+test('The document body should have "fancy-body" on the list of assigned classes', async ({
+  page,
+}) => {
   const imageLocatorIdValue = await page.locator('body').getAttribute('class');
   expect(imageLocatorIdValue).toBe('fancy-body');
 });
