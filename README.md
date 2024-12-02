@@ -16,6 +16,8 @@ If you are not using VSCode you can install and run the "live-server" npm packag
 The live-server installation video: [Video](https://www.loom.com/share/ca99ebec79d14bfa9fc4dd012661f919?sid=0c702a22-c5bd-4608-93d2-0643aecb4b07)  
 The live-server NPM package page: [Link](https://www.npmjs.com/package/live-server)
 
+Make sure to watch the [INTRO VIDEO](https://www.loom.com/share/7dc80d1a15f74d718dba51ed8490cacd?sid=40bfa1ba-526c-49b2-993f-7822deb6f731) before you start.
+
 ## Learning objectives
 
 This assignment should prove that a student is able to:
