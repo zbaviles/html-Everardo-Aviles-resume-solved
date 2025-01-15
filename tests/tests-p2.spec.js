@@ -1,9 +1,11 @@
-const { config } = require("../config.js");
+const {
+  "liveServer.settings.port": liveServerPort,
+} = require("../.vscode/settings.json");
 
 const { test, expect } = require("@playwright/test");
 
 test.beforeEach(async ({ page }) => {
-  await page.goto(`localhost:${config.test_port}`);
+  await page.goto(`localhost:${liveServerPort}`);
 });
 
 test("has the link tag set in the head", async ({ page }) => {
