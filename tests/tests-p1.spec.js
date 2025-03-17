@@ -4,7 +4,18 @@ const {
 
 // @ts-check
 const { test, expect } = require("@playwright/test");
-const mainPageUrl = `http://localhost:${liveServerPort}/index.html`;
+const {
+  getValidationErrorMessage,
+  shouldRunTests,
+} = require("./html-validate-helper.js");
+
+test.beforeAll(async () => {
+  const validationPassed = shouldRunTests();
+  if (!validationPassed) {
+    test.skip(true, getValidationErrorMessage());
+  }
+});
+const mainPageUrl = `http://localhost:${liveServerPort}/`;
 const cleanArrFromEmptyItems = (arr) => arr.filter((item) => item !== "");
 
 test.beforeEach(async ({ page }) => {

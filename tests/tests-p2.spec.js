@@ -3,7 +3,17 @@ const {
 } = require("../.vscode/settings.json");
 
 const { test, expect } = require("@playwright/test");
+const {
+  getValidationErrorMessage,
+  shouldRunTests,
+} = require("./html-validate-helper.js");
 
+test.beforeAll(async () => {
+  const validationPassed = shouldRunTests();
+  if (!validationPassed) {
+    test.skip(true, getValidationErrorMessage());
+  }
+});
 test.beforeEach(async ({ page }) => {
   await page.goto(`localhost:${liveServerPort}`);
 });
