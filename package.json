@@ -4,20 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "browser-install": "npx playwright install chromium",
-    "deps-install": "npx playwright install-deps",
+    "browser-install": "npx playwright install-deps && npx playwright install chromium",
     "test": "npx playwright test",
     "test-part1": "npx playwright test tests/tests-p1.spec.js",
     "test-part2": "npx playwright test tests/tests-p2.spec.js",
     "test-ui": "npx playwright test --ui",
-    "show-report": "npx playwright show-report",
-    "live-server": "npx live-server --port=5551"
+    "show-report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.49.1",
+<<<<<<< HEAD
     "live-server": "^1.2.2"
+=======
+    "node-html-parser": "^7.0.1"
+>>>>>>> upstream/master
   }
 }

@@ -77,18 +77,30 @@
   content: '\2750';
 }
 
-.fancy-body .light-part h1 {
+.fancy-body .light-part {
+  overflow: hidden;
+}
+
+.fancy-body .light-part .header-container {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  gap: 10px
+}
+
+.fancy-body .light-part #candidate-name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 10px
 }
 
 .fancy-body .light-part h1 .first-name {
-  font-size: 72px;
+  font-size: 36px;
+  word-break: break-word;
 }
 
 .fancy-body .light-part h1 .last-name {
   font-weight: normal;
-  font-size: 72px;
+  font-size: 36px;
 }
 
 .fancy-body .light-part #candidate-desired-role {
