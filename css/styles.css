@@ -7,7 +7,7 @@
 
 .fancy-body {
   padding: 60px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgba(51, 60, 77, 1);
 }
 
@@ -74,7 +74,19 @@
 }
 
 .fancy-body .dark-part .contacts-table a:after {
-  content: '\2750';
+  content: "\2750";
+}
+
+/* zbaviles */
+.fancy-body .dark-part .contacts-table span {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+}
+
+.fancy-body .dark-part .contacts-table span:after {
+  content: "\260E";
 }
 
 .fancy-body .light-part {
@@ -84,13 +96,13 @@
 .fancy-body .light-part .header-container {
   display: flex;
   flex-direction: column;
-  gap: 10px
+  gap: 10px;
 }
 
 .fancy-body .light-part #candidate-name {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 10px
+  gap: 0 10px;
 }
 
 .fancy-body .light-part h1 .first-name {
@@ -135,7 +147,7 @@
 .fancy-body .bio-container h2:after,
 .fancy-body .skills-container h2:after,
 .fancy-body .hobbies-container h2:after {
-  content: '';
+  content: "";
   height: 1px;
   background-color: rgba(51, 60, 77, 0.3);
   width: 100%;
