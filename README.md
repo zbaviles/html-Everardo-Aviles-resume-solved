@@ -67,10 +67,10 @@ All the tasks in the requirements are related to the index.html file! Consider "
 - [x] Add a section heading with the content of "Talented Frontend developer" that represents the desired role.
 - [x] Add an image with required and important attributes
   - [x] The image path should be `./assets/avatars/fake_person.jpg`. This image is included into the project already.
-  - [ ] The image alternative text should match the page title.
-- [ ] Add a section heading with the content of "About Me".
-- [ ] Add a paragraph of text (50 words at least) as the John Doe's bio. You can use random text for the paragraph content.
-- [ ] Add the section heading "My Skills"
+  - [x] The image alternative text should match the page title.
+- [x] Add a section heading with the content of "About Me".
+- [x] Add a paragraph of text (50 words at least) as the John Doe's bio. You can use random text for the paragraph content.
+- [x] Add the section heading "My Skills"
 - [ ] Add the ORDERED list and add 6 random item into it. (Feel free to use the devslopes website to get the real skill names or use some random skill names)
 - [ ] Add the section heading "My Hobbies"
 - [ ] Add the UNORDERED list of 4 hobbies
