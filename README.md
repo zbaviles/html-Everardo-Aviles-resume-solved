@@ -42,7 +42,7 @@ This assignment should prove that a student is able to:
 - [ ] Initialize playwright and install project packages
   - [x] Use `npm i` to install packages
   - [x] Use `npm run browser-install` to install the browser environment for testing 
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
+- [x] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
   - [ ] Use `npm run test` to run all tests in the terminal
   - [ ] Use `npm run test-part1` to run the tests for the first part of specific requirements in the terminal
