@@ -16,10 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.49.1",
-<<<<<<< HEAD
-    "live-server": "^1.2.2"
-=======
     "node-html-parser": "^7.0.1"
->>>>>>> upstream/master
   }
 }
